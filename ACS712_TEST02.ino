@@ -15,8 +15,8 @@ float AcsValue=0.0,Samples=0.0,AvgAcs=0.0,AcsValueF=0.0;
   Samples = Samples + AcsValue;  //Add samples together
   delay (3); // let ADC settle before next sample 3ms
 }
-icnt=(icnt+1)%100;
-if (icnt==0){icnt=10;}
+icnt=(icnt+100)%500;
+//if (icnt==0){icnt=200;}
 analogWrite(pwmPin,icnt);
 AvgAcs=Samples/150.0;//Taking Average of Samples
 
