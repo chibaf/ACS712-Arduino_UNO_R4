@@ -3,6 +3,7 @@ int pwmPin = 9;
 void setup() {
   Serial.begin(9600); //Start Serial Monitor to display current read value on Serial monitor
   pinMode(pwmPin, OUTPUT); 
+  analogReadResolution(14);
 }
 
 int icnt=0;
@@ -15,7 +16,8 @@ float AcsValue=0.0,Samples=0.0,AvgAcs=0.0,AcsValueF=0.0;
   Samples = Samples + AcsValue;  //Add samples together
   delay (3); // let ADC settle before next sample 3ms
 }
-icnt=(icnt+100)%500;
+icnt=icnt+1;
+if (icnt==256)icnt=0;
 //if (icnt==0){icnt=200;}
 analogWrite(pwmPin,icnt);
 AvgAcs=Samples/150.0;//Taking Average of Samples
