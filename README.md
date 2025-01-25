@@ -1,5 +1,7 @@
 # ACS712 - Arduino
 
+IC=ACS712ELCTR-05
+
 <img width="773" alt="image" src="https://github.com/user-attachments/assets/2d114cdf-5970-453e-b43a-e21870a3cb48" />
 
 ## references
