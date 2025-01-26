@@ -4,6 +4,9 @@ IC=ACS712ELCTR-05
 
 <img width="773" alt="image" src="https://github.com/user-attachments/assets/2d114cdf-5970-453e-b43a-e21870a3cb48" />
 
+https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.amazonaws.com%2F0%2F246335%2Fefa1c7e0-e99c-a6e0-0d57-8e2390d3c55f.png?ixlib=rb-4.0.0&auto=format&gif-q=60&q=75&s=435acd36bc4ef6e743c06f374e03582c![image](https://github.com/user-attachments/assets/e7aa6ae2-afcd-4950-b558-7a3316e89a25)
+
+
 ## references
 RobTillaart/ACS712: Arduino library for ACS Current Sensor - 5A, 20A, 30A
 https://github.com/RobTillaart/ACS712
