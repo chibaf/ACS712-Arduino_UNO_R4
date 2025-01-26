@@ -17,4 +17,5 @@ https://github.com/orgs/micropython/discussions/11922
 usb - Rpi Current Sensing Using ACS712 and INA219 - Raspberry Pi Stack Exchange
 https://raspberrypi.stackexchange.com/questions/94403/rpi-current-sensing-using-acs712-and-ina219
 
-
+ACS712を使ってみた #Arduino - Qiita
+https://qiita.com/k_zoo/items/34ffc2b33b842dfb51c9
