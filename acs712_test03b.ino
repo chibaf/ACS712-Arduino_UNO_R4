@@ -21,6 +21,6 @@ void loop() {
     //1.5~3.5Vレンジなので2.5Vオフセットすると-1~1V．これを-5~5Vにする為5をかけている．
     current += ((float)(analogRead(A0)) / 1023 * Ampere - offset) / range * 5 * 1000 / (float)(times);
   }
-  Serial.print("Current(mA) = ");
-  Serial.println(current,2);
+  //Serial.print("Current(mA) = ");
+  Serial.println(current,4);
 }
